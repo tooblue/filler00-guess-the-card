@@ -1,0 +1,61 @@
+/*************** GUESS THE CARD - ASSET STYLES */
+
+.f00-mystery-card {
+    color: #fff;
+    display: inline-block;
+    width: 75px;
+    height: 100px;
+    background-color: #666;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.f00-mystery-card.warning {
+    background-color: #cc3030;   
+}
+
+.f00-solved-card {
+    color: #fff;
+    display: inline-block;
+    width: 75px;
+    height: 100px;
+    background-color: #00ff83;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.f00-mystery-card > i, .f00-solved-card > i {
+    line-height: 100px;
+}
+
+.f00-input-error {
+    border-color: #b94a48;
+}
+
+.f00-input-success {
+    border-color: #468847;
+}
+
+/*************** MISC. STYLES */
+
+footer {
+    color: #666;
+    background-color: #eee;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+input[type=text] {
+    margin: 5px 0;
+}
+
+body > .container {
+    text-align: center;
+}

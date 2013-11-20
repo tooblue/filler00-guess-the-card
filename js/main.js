@@ -13,7 +13,7 @@ $('.f00-gtc-container').on({
 $('.f00-gtc-container').on('click', '#guess-the-card input[type=submit]', function(event){
     event.preventDefault();
 
-    $.post( "index.php", { 
+    $.post( document.location.pathname, { 
         'guesses[]': $('#guess-the-card input.f00-gtc-guess').map(function(){return $(this).val();}).get(),
     },
         function() {

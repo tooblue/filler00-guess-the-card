@@ -16,6 +16,10 @@ Some other styles and functionality are from the Bootstrap and Fontawesome CDN l
 
 To configure the game options, just open up 'index.php' and change the settings at the top of the file. Each "answer" must have a corresponding "hint", "card", and "placeholder".
 
+### Alternate
+
+Use 'alternate.php' in place of 'index.php' to limit players to one attempt at guessing.
+
 ### Support
 
 If you have questions or need help with the script, I'm most reponsive to support requests via the [Filler00.com Forums](http://filler00.com/forum/) or via [email](http://filler00.com/contact/).
